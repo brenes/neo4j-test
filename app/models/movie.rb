@@ -3,4 +3,6 @@ class Movie
   property :title, type: String
   property :released, type: Integer
   property :tagline, type: String
+  has_n(:PERSONS)
+  has_n(:ACTED_IN)
 end
