@@ -24,7 +24,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'neo4j', '~> 3.0.0.alpha'
-
+gem 'seedbank'
 group :development do
   gem 'os' # for rake Neo4j Tasks
 end
