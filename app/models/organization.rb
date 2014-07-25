@@ -1,6 +1,6 @@
-class Person
+class Organization
   include Neo4j::ActiveNode
   property :name, type: String
   has_n(:clues).from(Clue)
-  has_n(:organizations).from(Organization)
+  has_n(:persons).to(Person)
 end
