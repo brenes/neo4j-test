@@ -5,4 +5,5 @@ class Clue
   has_n(:persons).to(Person)
   has_n(:organizations).to(Person)
   has_n(:plots).to(Plot)
+  has_n(:information_sources).to(InformationSource)
 end
